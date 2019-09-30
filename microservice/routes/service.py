@@ -46,10 +46,10 @@ def second():
     try:
         # TODO: add the main functionality with the model and variable
         finish = True
-    except:
+    except Exception as e:
         # TODO: log exception
         # something went wrong with the request
-        return abort(400)
+        return abort(400, str(e))
     else:
         # TODO: return the response
         return jsonify({
