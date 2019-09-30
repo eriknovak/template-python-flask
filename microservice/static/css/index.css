@@ -1,0 +1,141 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+
+body > main {
+    height: 100%;
+    padding-bottom: 100px;
+}
+
+body .title__block {
+    background-color: #170E61;
+    padding: 25px;
+}
+
+body .title {
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #170E61;
+}
+
+b.doc {
+    color: #170E61;
+    font-weight: 600;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -60px;
+    visibility: hidden;
+}
+
+
+footer {
+    bottom: 0;
+    background-color: #170E61;
+    color: white;
+    font-size: 14px;
+}
+
+
+.doc.doc__section {
+    font-weight: 600;
+    color: #170E61;
+}
+
+.doc.url_baseline {
+    background-color: #eaeaea;
+    color: #170E61;
+}
+
+.doc.url_baseline p {
+    overflow-wrap: break-word;
+    margin: 0px;
+}
+
+.doc.doc__method.request {
+    width: 1%;
+}
+
+.doc.doc__method {
+    padding: 0px;
+    height: 0px;
+}
+
+
+.doc.doc__query {
+    padding: 0px;
+    height: 0px;
+}
+
+.doc.doc__query.name {
+    min-width: 120px;
+    width: 120px;
+}
+
+.doc.doc__query.type {
+    min-width: 70px;
+    width: 70px;
+}
+
+.doc.doc__query.title {
+    min-width: 150px;
+    width: 150px;
+}
+
+.doc.doc__query.optional {
+    min-width: 110px;
+    width: 110px;
+}
+
+.doc.doc__query.description {
+    min-width: 240px;
+}
+
+.doc.doc--small {
+    color: #9e9e9e;
+    font-size: 12px;
+}
+
+.doc.doc--small::after {
+    content: "\A";
+    white-space: pre;
+}
+
+.table-dashed-borders thead th {
+    border: 0px;
+}
+
+.table-dashed-borders tbody tr.no-bottom-border > td {
+    border-bottom: 0px solid;
+}
+
+.table-dashed-borders td {
+    border-top: 1px dashed #e1e1e1;
+    border-bottom: 1px dashed #e1e1e1;
+}
+
+.table.table--second-level {
+    background-color: #f1f1f1;
+}
+
+.table.table--third-level {
+    background-color: #e6e6e6;
+}
+
+.table-dashed-borders tbody tr.no-top-border > td {
+    border-top: 0px solid;
+}
+
+.clickable-row {
+    cursor: pointer;
+}

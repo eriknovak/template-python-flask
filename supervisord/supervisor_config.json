@@ -1,0 +1,7 @@
+{
+  "microservice": {
+    "program": "microservice",
+    "port": 4000,
+    "workers": 1
+  }
+}
